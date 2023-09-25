@@ -5,9 +5,58 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(pxfuel.jpg);
+  background-attachment: fixed;
+
+
+  
+}
+
+.nav{
+  background:linear-gradient(to right , rgb(17, 44, 99) , rgb(110, 101, 178));
+}
+.word{
+  color: #30b518;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.Heading{
+  color: antiquewhite;
+}
+
+.Cards{
+  box-shadow: 0 0 10px 1px cyan !important;
+  background-color: white !important;
+}
+
+input:focus {
+ outline: none !important;
+ 
+
+}
+.btn1{
+  background-color: #0a1d38 !important;
+  color: antiquewhite !important;
+  
+  z-index: 9999 !important;
+}
+
+.btn2b{
+  font-weight: 700;
+  color: #e6effb !important;
+  text-shadow: 3px 3px 2px rgb(0, 107, 128);
+}
+.Heading{
+  color: white;
+  text-shadow: 3px 5px 1px rgb(0, 107, 128);
+}
+
+@media only screen and (min-width:200px) and (max-width:575px){
+  .nav2{
+    background:linear-gradient(to right , rgb(17, 44, 99) , rgb(110, 101, 178));
+  }
+  
 }
