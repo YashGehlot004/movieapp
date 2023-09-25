@@ -105,6 +105,10 @@ function App() {
      </Pagination>
      
       
+      <div className="p-3">
+      <span className="fw-bold"> Made by Yash Gehlot </span>
+      <a className="text-black fw-bold" href="https://www.linkedin.com/in/yash-gehlot-14304025a/"> Find on Likdin  </a>
+      </div>
     </div>
   );
 }
